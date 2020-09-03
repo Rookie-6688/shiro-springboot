@@ -37,8 +37,8 @@ public class SmsDemo {
     static final String domain = "dysmsapi.aliyuncs.com";
 
     // TODO 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)
-    static final String accessKeyId = "LTAI4G5pHy7gjdQG6E7CSfyj";
-    static final String accessKeySecret = "BQsSa2r2CukLsJIf4PuouxLz3ILpTl";
+    static final String accessKeyId = "";
+    static final String accessKeySecret = "";
 
     public static SendSmsResponse sendSms(String phone) throws ClientException {
         String code=UUID.randomUUID().toString().substring(0,4);
